@@ -1,7 +1,8 @@
 # Sms_Data
 
 #SMS Data Analysis (Spam vs Non-Spam, Debit and Credit Analysis)
-##Overview
+
+Overview
 This repository contains a comprehensive analysis of SMS data focused on spam classification, transaction analysis (debit and credit), and text analysis. The primary objectives were to clean and preprocess SMS data, classify messages as spam or non-spam using machine learning, and extract key insights from non-spam SMS content. The analysis includes finding the most common words, calculating total debits and credits, identifying frequent senders, and analyzing SMS activity and transaction data.
 
 ##Features
