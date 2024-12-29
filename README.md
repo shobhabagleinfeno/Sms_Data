@@ -1,11 +1,12 @@
 # Sms_Data
-
-#SMS Data Analysis (Spam vs Non-Spam, Debit and Credit Analysis)
+SMS Data Analysis (Spam vs Non-Spam, Debit and Credit Analysis)
 
 Overview
 This repository contains a comprehensive analysis of SMS data focused on spam classification, transaction analysis (debit and credit), and text analysis. The primary objectives were to clean and preprocess SMS data, classify messages as spam or non-spam using machine learning, and extract key insights from non-spam SMS content. The analysis includes finding the most common words, calculating total debits and credits, identifying frequent senders, and analyzing SMS activity and transaction data.
 
-##Features
+Features
+
+
 Data Cleaning:
 
 The SMS dataset was cleaned to handle missing values, format issues, and irrelevant data points.
@@ -61,8 +62,10 @@ The Number of Debit and Credit Transactions to Banks analysis helped understand 
 Categorization of Messages:
 
 The message categorization revealed that promotional and transactional messages dominate non-spam content, with a small portion consisting of notifications.
+
+
 Setup
-##Clone this repository:
+Clone this repository:
 
 git clone https://github.com/your-username/sms-data-analysis.git
 Install the required dependencies:
@@ -70,14 +73,19 @@ Install the required dependencies:
 pip install -r requirements.txt
 Make sure you have the SMS data in the correct format (CSV or similar) and adjust the file path in the script accordingly.
 
-##Files
+
+Files
 sms_data_analysis.py: Main script for cleaning, classifying, and analyzing the data.
 requirements.txt: List of required Python packages.
 data_cleaned.csv: Cleaned data file (if applicable).
 README.md: This file.
+
+
 Future Improvements
 Enhance the spam classification model using advanced NLP techniques (e.g., sentiment analysis, deep learning).
 Implement additional transaction categorization (e.g., by transaction type like payment, refund, etc.).
 Integrate the analysis with a web dashboard for real-time monitoring.
+
+
 License
 This project is licensed under the MIT License - see the LICENSE file for details.
